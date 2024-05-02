@@ -1,0 +1,45 @@
+#top {
+    position: fixed;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#header_logo {
+    position: fixed;
+    top: 5px;
+    left: 36px;
+    width: 195px;
+    height: 71px;
+}
+
+.topnav {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.a:hover {
+    color: green;
+}
