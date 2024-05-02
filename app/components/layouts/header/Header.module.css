@@ -19,7 +19,7 @@
     margin: auto;
 }
 
-#header_logo {
+#mylogo {
     position: fixed;
     top: 5px;
     left: 36px;
@@ -27,13 +27,13 @@
     height: 71px;
 }
 
-.topnav {
+.nav {
     list-style: none;
     display: inline-block;
     margin-right: 30px;
 }
 
-.a {
+.menu {
     text-decoration: none;
     color: black;
     font-weight: bold;
