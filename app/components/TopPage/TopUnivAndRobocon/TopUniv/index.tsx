@@ -1,7 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
-import { LinkButton } from 'app/components/LinkButton'
 import styles from "./TopUniv.module.css"
 import common from "../common/common.module.css"
 import Univ1 from "./TopUniv_Images/univ1.jpg"
