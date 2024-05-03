@@ -1,14 +1,27 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from "./TopAboutMe.module.css"
-import About1 from "./TopAboutMe_Images/about1.jpg"
+import about1 from "./TopAboutMe_Images/about1.jpg"
+import { LinkButton } from 'app/components/LinkButton'
+import Link from 'next/link'
 
 export const TopAboutMe = () => {
     return (
         <>
-            <section className='section'>
+            <section className={styles.section}>
                 <div className={styles.container}>
-                    <Image className={styles.about1} src={About1} />
+                    <div><Image className={styles.about1} src={about1} alt='takuma' /></div>
+                    <div className={styles.right}>
+                        <div className={styles.text}>
+                            <h2 className={styles.h2}>ABOUT ME</h2>
+                            <p className={styles.p}>宮崎大学工学部学部4年生です．<br />
+                                情報通信工学を専攻しています．<br />
+                                プログラミングは大学から始め，最近はスキルアップのためにアプリケーションを作成しています．<br />
+                                普段は主に，研究，ロボコン，アルバイトなどを行っています.
+                            </p>
+                        </div>
+                        <Link href={"About"} className={styles.button}><LinkButton /></Link>
+                    </div>
                 </div>
             </section>
         </>
