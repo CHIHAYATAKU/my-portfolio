@@ -38,6 +38,7 @@
     color: black;
     font-weight: bold;
     transition: all 0.2s;
+    font-size: 1.75rem;
 }
 
 .a:hover {

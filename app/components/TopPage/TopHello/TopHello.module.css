@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 49%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 19.44%;
+    padding-right: 19.44%;
+}
+
+.me {
+    position: relative;
+    margin-bottom: 0;
+}
+
+#me {
+    position: relative;
+    /* height: 28.625rem; */
+    bottom: 0;
+    /* width: auto; */
+    width: 18.09375rem;
+    height: 28.625rem;
+}
+
+#h1 {
+    font-size: 2.5rem;
+}
+
+.sns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12.625rem;
+}
+
+#gitlogo {
+    width: 4.6875rem;
+    height: auto;
+}
+
+#instalogo {
+    width: 4.6875rem;
+    height: auto;
+}
+
+.content {
+    font-size: 0.875rem;
+}

@@ -126,3 +126,8 @@ a {
   min-height: 100%;
   justify-content: space-between;
 }
+
+/* ヘッダーの下に内容を配置 */
+.content {
+  margin-top: 5rem;
+}

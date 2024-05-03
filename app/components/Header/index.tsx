@@ -5,7 +5,7 @@ import Script from 'next/script';
 import mylogo from './Header_images/logo_takuma.png';
 import styles from "./Header.module.css";
 
-export const Header = () => {
+const Header = () => {
     return (
         <header id={styles.top}>
             <div className={styles.container}>
@@ -20,7 +20,7 @@ export const Header = () => {
                             <Link href={"About"} className={styles.menu}>ABOUT</Link>
                         </li>
                         <li className={styles.nav}>
-                            <Link href={"ETRobocon"} className={styles.menu}>ETROBOCON</Link>
+                            <Link href={"Robocon"} className={styles.menu}>ETROBOCON</Link>
                         </li>
                         <li className={styles.nav}>
                             <Link href={"Products"} className={styles.menu}>PRODUCTS</Link>
