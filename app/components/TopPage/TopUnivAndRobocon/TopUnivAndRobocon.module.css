@@ -1,0 +1,23 @@
+.abovecontainer {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 19.44%;
+    padding-left: 19.44%;
+    padding-bottom: 6.8125rem;
+}
+
+.belowcontainer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

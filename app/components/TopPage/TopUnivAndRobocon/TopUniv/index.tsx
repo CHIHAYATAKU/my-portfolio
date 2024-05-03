@@ -18,7 +18,6 @@ export const TopUniv = () => {
                     基礎数学の成績でも学部1位になりました．
                     大学の受験生向けのパンフレットに載ったこともあります．
                 </p>
-                <Link href={"Univ"} className={common.button}><LinkButton /></Link>
             </div>
         </>
     )

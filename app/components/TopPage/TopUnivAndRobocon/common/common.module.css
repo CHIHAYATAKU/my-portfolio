@@ -19,11 +19,13 @@
     font-size: 0.875rem;
     margin: 0%;
     /* width: 28.75rem; */
-    padding-bottom: 1.0625rem;
+    /* padding-bottom: 1.0625rem; */
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
 }
 
 
-.button {
+/* .button {
     position: relative;
     text-align: center;
-}
+} */
