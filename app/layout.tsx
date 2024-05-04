@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Loading from "./Loading";
+import { BgAnimation } from "./_components/BgAnimation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={inter.className}>
+        <Loading />
         <div className="wrapper">
+          <BgAnimation />
           <Header />
           {children}
         </div>
