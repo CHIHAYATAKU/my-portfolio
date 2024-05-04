@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from "./_components/Header";
+import Footer from "./_components/Footer";
+import { Suspense } from "react";
+import Loading from "./Loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,12 +22,13 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={inter.className}>
+        <Loading></Loading>
         <div className="wrapper">
           <Header />
           {children}
         </div>
         <Footer />
       </body>
-    </html>
+    </html >
   );
 }

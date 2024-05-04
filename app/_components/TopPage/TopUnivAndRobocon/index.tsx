@@ -3,7 +3,7 @@ import { TopUniv } from './TopUniv'
 import { TopRobocon } from './TopRobocon'
 import styles from "./TopUnivAndRobocon.module.css"
 import Link from 'next/link'
-import { LinkButton } from 'app/components/LinkButton'
+import { LinkButton } from 'app/_components/LinkButton'
 
 export const TopUnivAndRobocon = () => {
     return (
