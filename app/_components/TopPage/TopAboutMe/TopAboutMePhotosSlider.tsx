@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from "./TopAboutMe.module.css"
 import about1 from "./TopAboutMe_Images/about1.jpg"
-// import private1 from "./TopAboutMe_Images/private1.JPEG"
 
 const images = [
     about1, // 画像のURLまたはパスをここに置きます

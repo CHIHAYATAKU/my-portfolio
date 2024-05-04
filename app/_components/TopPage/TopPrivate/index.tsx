@@ -3,9 +3,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { LinkButton } from 'app/_components/LinkButton'
 import styles from "./TopPrivate.module.css"
-import private1 from "./TopPrivate_Images/private1.JPEG"
-import private2 from "./TopPrivate_Images/private2.JPEG"
-import private3 from "./TopPrivate_Images/private3.JPEG"
+import private1 from "./TopPrivate_Images/private1.jpg"
+import private2 from "./TopPrivate_Images/private2.jpg"
+import private3 from "./TopPrivate_Images/private3.jpg"
 
 export const TopPrivate = () => {
     return (
