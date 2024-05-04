@@ -14,7 +14,7 @@ export const TopUniv = () => {
                     また，クラシックギター部でも活動しています．
                     大学1年，2年の成績で2年連続で成績優秀者になりました．
                     基礎数学の成績でも学部1位になりました．
-                    大学の受験生向けのパンフレットに載ったこともあります．
+                    大学の受験生向けの<a className={styles.a} href='https://www.miyazaki-u.ac.jp/document-request/uom_annai2023.pdf'>パンフレット</a>に載ったこともあります．
                 </p>
             </div>
         </>

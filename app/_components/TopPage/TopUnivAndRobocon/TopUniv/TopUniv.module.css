@@ -17,3 +17,11 @@
     /* padding-right: 19.44%; */
     /* padding-left: 13.58075em; */
 }
+
+.a {
+    color: black;
+}
+
+.a:hover {
+    color: green;
+}

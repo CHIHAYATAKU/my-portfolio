@@ -4,12 +4,14 @@ import styles from "./TopAboutMe.module.css"
 import about1 from "./TopAboutMe_Images/about1.jpg"
 import { LinkButton } from 'app/_components/LinkButton'
 import Link from 'next/link'
+// import Slider from './TopAboutMePhotosSlider'
 
 export const TopAboutMe = () => {
     return (
         <>
             <section className={styles.section}>
                 <div className={styles.container}>
+                    {/* <Slider /> */}
                     <div><Image className={styles.about1} src={about1} alt='takuma' /></div>
                     <div className={styles.right}>
                         <div className={styles.text}>
