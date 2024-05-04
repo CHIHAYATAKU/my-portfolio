@@ -4,6 +4,6 @@ import styles from "./LinkButton.module.css"
 
 export const LinkButton = () => {
     return (
-        <Button variant="outline-primary">View More</Button>
+        <Button id={styles.LinkButton} variant="outline-primary">View More</Button>
     )
 }

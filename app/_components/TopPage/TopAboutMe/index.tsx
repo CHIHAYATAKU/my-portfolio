@@ -22,7 +22,7 @@ export const TopAboutMe = () => {
                                 普段は主に，研究，ロボコン，アルバイトなどを行っています.
                             </p>
                         </div>
-                        <Link href={"About"} className={styles.button}><LinkButton /></Link>
+                        <Link href={"About"} className="button"><LinkButton /></Link>
                     </div>
                 </div>
             </section>

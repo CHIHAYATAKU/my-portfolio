@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-right: 19.44%;
     padding-left: 19.44%;
     padding-bottom: 6.8125rem;
@@ -10,8 +11,10 @@
 
 .imgassets {
     position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 1.0625rem;
 }
@@ -48,9 +51,4 @@
     border-radius: 10%;
     object-position: 85% 20%;
     border: solid 2px #777777
-}
-
-
-.button {
-    text-align: center;
 }

@@ -33,7 +33,7 @@ export const TopPrivate = () => {
                             </p>
                         </div>
                     </div>
-                    <Link href={"Private"} className={styles.button}><LinkButton /></Link>
+                    <Link href={"Private"} className="button"><LinkButton /></Link>
                 </div>
             </section>
         </>

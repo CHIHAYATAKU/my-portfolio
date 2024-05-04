@@ -15,8 +15,8 @@ export const TopUnivAndRobocon = () => {
                         <TopRobocon />
                     </div>
                     <div className={styles.belowcontainer}>
-                        <Link href={"Univ"} className={styles.button}><LinkButton /></Link>
-                        <Link href={"Robocon"} className={styles.button}><LinkButton /></Link>
+                        <Link href={"Univ"} className="button"><LinkButton /></Link>
+                        <Link href={"Robocon"} className="button"><LinkButton /></Link>
                     </div>
                 </div>
             </section>

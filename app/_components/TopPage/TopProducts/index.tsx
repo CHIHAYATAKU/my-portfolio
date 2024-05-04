@@ -32,7 +32,7 @@ export const TopProducts = () => {
                             </p>
                         </div>
                     </div>
-                    <Link href={"Products"} className={styles.button}><LinkButton /></Link>
+                    <Link href={"Products"} className="button"><LinkButton /></Link>
                 </div>
             </section>
         </>
