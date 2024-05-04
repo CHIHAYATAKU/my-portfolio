@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import Git_logo from "./TopHello_images/git_logo_top.svg"
-import Insta_logo from "./TopHello_images/insta_logo_top.svg"
-import Me from "./TopHello_images/topme.png"
+import Git_logo from "./TopHello_Images/git_logo_top.svg"
+import Insta_logo from "./TopHello_Images/insta_logo_top.svg"
+import Me from "./TopHello_Images/topme.png"
 import styles from "./TopHello.module.css"
 
 export const TopHello = () => {
     return (
-        <section className='section'>
+        <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.left}>
                     <h1 id={styles.h1}>Hello!<br />
