@@ -1,9 +1,7 @@
 .univ {
-    height: 15rem;
-    width: 26.25rem;
-    /* border-radius: 80%;
-    border: 5px solid grey;
-    box-sizing: border-box; */
+    position: relative;
+    width: 99%;
+    height: auto;
     padding-bottom: 1.0625rem;
 }
 

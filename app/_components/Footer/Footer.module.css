@@ -26,15 +26,7 @@
     top: 1.313rem;
 } */
 
-.menu {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    transition: all 0.2s;
-    font-size: 1.25rem;
-}
-
-.menu:hover {
+.link:hover {
     color: green;
 }
 
@@ -44,13 +36,25 @@
     height: 2.188rem;
 }
 
+.link {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    transition: all 0.2s;
+}
+
 .ul {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
 }
 
-.ul li {
+.li {
     padding: 0.5rem 1.563rem;
     border-bottom: 0.063rem solid #000000;
 }

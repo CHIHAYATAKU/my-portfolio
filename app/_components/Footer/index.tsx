@@ -4,6 +4,7 @@ import Link from 'next/link';
 import gitlogo from "./Footer_images/git_logo_bottom.svg"
 import instalogo from "./Footer_images/insta_logo_bottom.svg"
 import Image from 'next/image';
+import { MENU_ITEMS } from 'app/utils/Menu_Items';
 
 const Footer = () => {
     return (
@@ -11,21 +12,13 @@ const Footer = () => {
             <div className={styles.container}>
                 <nav>
                     <ul className={styles.ul}>
-                        <li className={styles.nav}>
-                            <Link href={"About"} className={styles.menu}>ABOUT</Link>
-                        </li>
-                        <li className={styles.nav}>
-                            <Link href={"Robocon"} className={styles.menu}>ETROBOCON</Link>
-                        </li>
-                        <li className={styles.nav}>
-                            <Link href={"Products"} className={styles.menu}>PRODUCTS</Link>
-                        </li>
-                        <li className={styles.nav}>
-                            <Link href={"Univ"} className={styles.menu}>UNIV</Link>
-                        </li>
-                        <li className={styles.nav}>
-                            <Link href={"Private"} className={styles.menu}>PRIVATE</Link>
-                        </li>
+                        {MENU_ITEMS.map((item) => {
+                            return (
+                                <li key={item.href} className={styles.li}>
+                                    <Link href={item.href} className={styles.link}>{item.label}</Link>
+                                </li>
+                            )
+                        })}
                     </ul>
                 </nav>
                 <div className={styles.sns}>

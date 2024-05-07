@@ -1,36 +1,31 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from "next/image";
-import Script from 'next/script';
+// import Script from 'next/script';
 import mylogo from './Header_images/logo_takuma.png';
 import styles from "./Header.module.css";
+import { MENU_ITEMS } from 'app/utils/Menu_Items';
 
 const Header = () => {
     return (
         <header id={styles.top}>
             <div className={styles.container}>
-                <div>
-                    <Link href={"/"}>
+                <div className={styles.logodiv}>
+                    <Link href={"/"} className={styles.link}>
                         <Image id={styles.mylogo} src={mylogo} alt="Takuma Portforio" />
                     </Link>
                 </div>
+                {/* <div>
+                </div> */}
                 <nav>
-                    <ul>
-                        <li className={styles.nav}>
-                            <Link href={"About"} className={styles.menu}>ABOUT</Link>
-                        </li>
-                        <li className={styles.nav}>
-                            <Link href={"Robocon"} className={styles.menu}>ETROBOCON</Link>
-                        </li>
-                        <li className={styles.nav}>
-                            <Link href={"Products"} className={styles.menu}>PRODUCTS</Link>
-                        </li>
-                        <li className={styles.nav}>
-                            <Link href={"Univ"} className={styles.menu}>UNIV</Link>
-                        </li>
-                        <li className={styles.nav}>
-                            <Link href={"Private"} className={styles.menu}>PRIVATE</Link>
-                        </li>
+                    <ul className={styles.ul}>
+                        {MENU_ITEMS.map((item) => {
+                            return (
+                                <li key={item.href} className={styles.li}>
+                                    <Link href={item.href} className={styles.link}>{item.label}</Link>
+                                </li>
+                            )
+                        })}
                     </ul>
                 </nav>
             </div>

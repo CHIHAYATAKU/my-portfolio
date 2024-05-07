@@ -12,7 +12,7 @@ export const TopAboutMe = () => {
             <section className={styles.section}>
                 <div className={styles.container}>
                     {/* <Slider /> */}
-                    <div><Image className={styles.about1} src={about1} alt='takuma' /></div>
+                    <Image className={styles.about1} src={about1} alt='takuma' />
                     <div className={styles.right}>
                         <div className={styles.text}>
                             <h2 className={styles.h2}>ABOUT ME</h2>

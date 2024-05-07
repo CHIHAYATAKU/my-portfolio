@@ -35,17 +35,18 @@
 }
 
 .about1 {
-    height: 15rem;
-    width: 26.25rem;
+    position: relative;
+    width: 49.5%;
+    height: auto;
     /* border-radius: 80%;
     border: 5px solid grey;
     box-sizing: border-box; */
 }
 
-.button {
+/* .button {
     position: relative;
     text-align: center;
-}
+} */
 
 .right {
     display: flex;
