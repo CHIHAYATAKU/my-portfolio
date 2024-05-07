@@ -5,7 +5,7 @@ export default function Loading() {
                 <span></span>
                 <span></span>
                 <span></span>
-                <h2>ようこそ！</h2>
+                <h2>Welcome to <br />My portfolio site！</h2>
             </div>
         </>
     );
