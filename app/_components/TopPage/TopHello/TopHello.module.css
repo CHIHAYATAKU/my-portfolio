@@ -6,17 +6,16 @@
 .container {
     position: relative;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
     /* background-color: #d9d9d9; */
     background-image: url(./TopHello_Images/topHelloBG.JPEG);
     background-position: center;
     width: 100%;
-    height: 49%;
+    height: fit-content;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 19.44%;
-    padding-right: 19.44%;
 }
 
 .container::after {
@@ -31,7 +30,10 @@
 
 .me {
     position: relative;
+    padding-right: 19.44%;
     margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
     z-index: 1;
 }
 
@@ -40,8 +42,12 @@
     /* height: 28.625rem; */
     bottom: 0;
     /* width: auto; */
-    width: 18.09375rem;
-    height: 28.625rem;
+    /* width: 18.09375rem; */
+    width: 70%;
+    /* height: 28.625rem; */
+    height: auto;
+    min-width: 253.76px;
+    min-height: 401.px;
 }
 
 #h1 {
@@ -52,17 +58,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 12.625rem;
+    /* width: 12.625rem; */
+    width: 50%;
 }
 
 #gitlogo {
-    width: 4.6875rem;
+    /* width: 4.6875rem; */
+    width: 37.12%;
     height: auto;
+    padding-bottom: 10px;
 }
 
 #instalogo {
-    width: 4.6875rem;
+    width: 37.12%;
     height: auto;
+    padding-bottom: 10px;
 }
 
 .content {
@@ -70,5 +80,7 @@
 }
 
 .left {
+    position: relative;
     z-index: 1;
+    padding-left: 19.44%;
 }

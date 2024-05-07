@@ -2,14 +2,14 @@
     position: relative;
     margin-top: auto;
     width: 100%;
-    height: 7.5rem;
-    background-color: #939393;
+    /* height: 10.1075rem; */
+    height: fit-content;
     color: black;
     z-index: 100;
 }
 
 .container {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -17,6 +17,7 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    background-color: #939393;
 }
 
 /* .nav {
@@ -56,6 +57,7 @@
 
 .li {
     padding: 0.5rem 1.563rem;
+    border-top: 0.063rem solid #000000;
     border-bottom: 0.063rem solid #000000;
 }
 
@@ -64,4 +66,18 @@
     display: flex;
     width: 5.938rem;
     justify-content: space-between;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p {
+    position: relative;
+    text-align: center;
+    margin: 0%;
 }

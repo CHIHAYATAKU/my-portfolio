@@ -10,17 +10,20 @@ const Footer = () => {
     return (
         <footer id={styles.footer}>
             <div className={styles.container}>
-                <nav>
-                    <ul className={styles.ul}>
-                        {MENU_ITEMS.map((item) => {
-                            return (
-                                <li key={item.href} className={styles.li}>
-                                    <Link href={item.href} className={styles.link}>{item.label}</Link>
-                                </li>
-                            )
-                        })}
-                    </ul>
-                </nav>
+                <div className={styles.manu}>
+                    <p className={styles.p}>MENU</p>
+                    <nav>
+                        <ul className={styles.ul}>
+                            {MENU_ITEMS.map((item) => {
+                                return (
+                                    <li key={item.href} className={styles.li}>
+                                        <Link href={item.href} className={styles.link}>{item.label}</Link>
+                                    </li>
+                                )
+                            })}
+                        </ul>
+                    </nav>
+                </div>
                 <div className={styles.sns}>
                     <Image id={styles.gitlogo} src={gitlogo} alt="Github" />
                     <Image id={styles.instalogo} src={instalogo} alt="Instagram" />
