@@ -5,17 +5,6 @@
     padding-bottom: 1.0625rem;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* width: 43.75rem; */
-    width: 50%;
-    height: auto;
-    /* padding-right: 19.44%; */
-    /* padding-left: 13.58075em; */
-}
-
 .a {
     color: black;
 }

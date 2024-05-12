@@ -10,12 +10,12 @@ export const TopUnivAndRobocon = () => {
         <>
             <section className={styles.section}>
                 <div className={styles.container}>
-                    <div className={styles.abovecontainer}>
+                    <div className={styles.box}>
                         <TopUniv />
-                        <TopRobocon />
-                    </div>
-                    <div className={styles.belowcontainer}>
                         <Link href={"Univ"} className="button"><LinkButton /></Link>
+                    </div>
+                    <div className={styles.box}>
+                        <TopRobocon />
                         <Link href={"Robocon"} className="button"><LinkButton /></Link>
                     </div>
                 </div>

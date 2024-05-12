@@ -14,47 +14,9 @@ body {
 
 body {
   background-color: white;
-  /* 白色 */
-  /* margin: 0; */
-  /* ブラウザのデフォルトのマージンを削除 */
-  /* padding: 0; */
-  /* ブラウザのデフォルトのパディングを削除 */
   height: 100vh;
   height: 100dvh;
 }
-
-
-a {
-  color: inherit;
-  text-decoration: none;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
-.row>* {
-  min-width: 0;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
-}
-
-.col>* {
-  max-width: 100%;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
 
 .wrapper {
   display: flex;
@@ -142,7 +104,13 @@ a {
   height: fit-content;
 }
 
-@media (width <=1000px) {
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .content {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .content {
     margin-top: 3rem;
   }
