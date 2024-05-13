@@ -46,8 +46,8 @@
 }
 
 .products {
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     object-fit: cover;
     border-radius: 10%;
     object-position: 85% 20%;

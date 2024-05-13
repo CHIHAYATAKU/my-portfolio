@@ -15,9 +15,7 @@ const Header = () => {
                         <Image id={styles.mylogo} src={mylogo} alt="Takuma Portforio" />
                     </Link>
                 </div>
-                {/* <div>
-                </div> */}
-                <nav>
+                <nav className={styles.nav}>
                     <ul className={styles.ul}>
                         {MENU_ITEMS.map((item) => {
                             return (

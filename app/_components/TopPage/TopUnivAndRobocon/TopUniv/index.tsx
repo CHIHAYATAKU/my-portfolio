@@ -8,7 +8,9 @@ export const TopUniv = () => {
     return (
         <>
             <h2 className={common.h2}>UNIV</h2>
-            <Image className={styles.univ} src={univ} alt='unuv1' />
+            <div className={styles.divimg}>
+                <Image className={styles.univimg} src={univ} alt='unuv1' />
+            </div>
             <p className={common.p}>大学では情報通信工学を専攻しています．
                 また，クラシックギター部でも活動しています．
                 大学1年，2年の成績で2年連続で成績優秀者になりました．

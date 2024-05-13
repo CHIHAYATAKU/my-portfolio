@@ -7,11 +7,12 @@
     position: relative;
     display: flex;
     /* flex-wrap: wrap; */
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     /* background-color: #d9d9d9; */
     background-image: url(./TopHello_Images/topHelloBG.JPEG);
     background-position: center;
+    background-size: cover;
     width: 100%;
     height: fit-content;
     margin-left: auto;
@@ -28,29 +29,27 @@
     left: 0;
 }
 
-.me {
+/* .me {
     position: relative;
     padding-right: 19.44%;
     margin-bottom: 0;
     display: flex;
     justify-content: flex-end;
     z-index: 1;
-}
+} */
 
-#me {
+/* #me {
     position: relative;
-    /* height: 28.625rem; */
     bottom: 0;
-    /* width: auto; */
-    /* width: 18.09375rem; */
     width: 70%;
-    /* height: 28.625rem; */
     height: auto;
     min-width: 253.76px;
-    min-height: 401.px;
-}
+    min-height: 401px;
+} */
 
-#h1 {
+.h1 {
+    display: flex;
+    text-align: center;
     font-size: 2.5rem;
 }
 
@@ -60,6 +59,7 @@
     align-items: center;
     /* width: 12.625rem; */
     width: 50%;
+    max-width: 9.375rem;
 }
 
 #gitlogo {
@@ -75,12 +75,49 @@
     padding-bottom: 10px;
 }
 
-.content {
+.p {
     font-size: 0.875rem;
 }
 
-.left {
+.content {
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
     padding-left: 19.44%;
+    padding-right: 19.44%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {}
+
+@media screen and (max-width: 767px) {
+    /* .me {
+        display: none;
+    }
+
+    .h1 {
+        display: flex;
+        text-align: center;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .sp_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        padding-left: 19.44%;
+        padding-right: 19.44%;
+    } */
+
+    .sns {
+        max-width: 9.375rem;
+    }
 }

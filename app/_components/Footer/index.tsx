@@ -10,9 +10,9 @@ const Footer = () => {
     return (
         <footer id={styles.footer}>
             <div className={styles.container}>
-                <div className={styles.manu}>
+                <div className={styles.menu}>
                     <p className={styles.p}>MENU</p>
-                    <nav>
+                    <nav className={styles.nav}>
                         <ul className={styles.ul}>
                             {MENU_ITEMS.map((item) => {
                                 return (

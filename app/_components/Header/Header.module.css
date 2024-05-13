@@ -28,14 +28,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 7.1875rem;
+    padding-left: 10px;
 }
 
 #mylogo {
     position: relative;
-    width: 60%;
+    width: 80%;
     height: auto;
-    min-width: 8rem;
-    /* padding-left: 10px; */
+    max-height: 4.7rem;
+    min-width: 7rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .ul {
@@ -43,14 +51,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-right: 1.875rem;
+    margin: auto;
     color: black;
 }
 
 .li {
     font-weight: bold;
     font-size: 1.75rem;
-    padding-left: 1.75rem;
+    margin-right: 1.6rem;
 }
 
 .link {
@@ -68,15 +76,11 @@
 }
 
 /* TB */
-@media screen and (min-width: 768px) and (max-width: 960px) {
-    #top {
-        height: 3rem;
-    }
-}
+@media screen and (min-width: 768px) and (max-width: 960px) {}
 
 /* SP */
 @media screen and (max-width: 767px) {
-    #top {
-        height: 3rem;
+    .nav {
+        display: none;
     }
 }
