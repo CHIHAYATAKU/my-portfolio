@@ -1,0 +1,140 @@
+.humburger {
+    display: none;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {}
+
+@media screen and (max-width: 767px) {
+    .humburger {
+        display: flex;
+    }
+
+    .humburger_menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: center;
+        text-align: center;
+        justify-content: center;
+        cursor: pointer;
+        animation: blur 3s ease forwards;
+        margin: 0%;
+        padding: 0%;
+        position: relative;
+        width: 3.125rem;
+        height: 3.125rem;
+        top: 0;
+        right: 10px;
+    }
+
+    .humburger_menu span {
+        width: 2.5rem;
+        height: 0.1875rem;
+        border-radius: 0.125rem;
+        display: block;
+        position: absolute;
+        z-index: 100;
+        transition: all 0.3s;
+    }
+
+    .humburger_icon_closed span {
+        background: #333;
+    }
+
+    .humburger_icon_closed span:nth-child(1) {
+        transform: translate(0, -0.75rem);
+    }
+
+    .humburger_icon_closed span:nth-child(2) {
+        transform: translate(0, 0);
+    }
+
+    .humburger_icon_closed span:nth-child(3) {
+        transform: translate(0, 0.75rem);
+    }
+
+    .humburger_icon_opened span {
+        background: white;
+    }
+
+    .humburger_icon_opened span:nth-child(1) {
+        top: 50%;
+        transform: rotate(135deg);
+    }
+
+    .humburger_icon_opened span:nth-child(2) {
+        position: fixed;
+        transform: translate(0, 100px) rotate(-360deg);
+        right: 25%;
+        width: 50%;
+    }
+
+    .humburger_icon_opened span:nth-child(3) {
+        top: 50%;
+        transform: rotate(-135deg);
+    }
+
+    .menu_container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        height: 100dvh;
+        background-color: rgba(0, 0, 0, 0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .menutext {
+        position: relative;
+        padding-top: 50px;
+        margin: 24px;
+        width: 100%;
+        font-size: large;
+        color: white;
+        text-align: center;
+    }
+
+    .nav {
+        width: 100%;
+        height: 40%;
+    }
+
+    .ul {
+        position: relative;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+
+    .li {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-right: 0;
+
+    }
+
+    .link {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+        transition: all 0.2s;
+    }
+
+    .link:hover {
+        color: green;
+    }
+}

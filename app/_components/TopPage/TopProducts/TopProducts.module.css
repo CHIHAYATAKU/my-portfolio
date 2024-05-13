@@ -53,3 +53,7 @@
     object-position: 85% 20%;
     border: solid 2px #777777
 }
+
+@media screen and (min-width: 768px) and (max-width: 960px) {}
+
+@media screen and (max-width: 767px) {}
