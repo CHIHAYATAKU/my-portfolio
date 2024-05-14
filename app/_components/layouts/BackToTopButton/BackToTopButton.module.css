@@ -10,7 +10,7 @@
     height: 2.5rem;
     border-radius: 100%;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 200;
     transition: all 0.3s;
 }
 

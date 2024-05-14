@@ -33,7 +33,7 @@
         border-radius: 0.125rem;
         display: block;
         position: absolute;
-        z-index: 100;
+        z-index: 101;
         transition: all 0.3s;
     }
 
@@ -67,15 +67,16 @@
     }
 
     .humburger_icon_opened span:nth-child(2) {
-        position: fixed;
-        transform: translate(0, 100px) rotate(-360deg);
-        right: 25%;
-        width: 50%;
-    }
-
-    .humburger_icon_opened span:nth-child(3) {
         top: 50%;
         transform: rotate(-135deg);
+    }
+
+
+    .humburger_icon_opened span:nth-child(3) {
+        position: fixed;
+        transform: translate(0, 90px) rotate(-360deg);
+        right: 25%;
+        width: 50%;
     }
 
     .menu_container {
@@ -98,7 +99,7 @@
         padding-top: 50px;
         margin: 24px;
         width: 100%;
-        font-size: large;
+        font-size: 1.2rem;
         color: white;
         text-align: center;
     }
