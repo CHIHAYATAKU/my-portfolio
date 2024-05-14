@@ -4,7 +4,7 @@ import Image from "next/image";
 // import Script from 'next/script';
 import mylogo from './_Header_components/Header_images/logo_takuma.png';
 import styles from "./Header.module.css";
-import { MENU_ITEMS } from 'app/utils/Menu_Items';
+import { MENU_ITEMS } from 'app/_utils/Menu_Items';
 import { Humburger_Menu } from './_Header_components/Humburger_menu';
 
 const Header = () => {

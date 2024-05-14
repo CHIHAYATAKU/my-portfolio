@@ -1,0 +1,25 @@
+.pagetop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 0.3s;
+}
+
+.pagetop a {
+    color: black;
+    transition: all 0.3s;
+}
+
+.pagetop:hover {
+    transform: scale(1.5, 1.5);
+    background-color: rgba(0, 0, 0, 0.15);
+}

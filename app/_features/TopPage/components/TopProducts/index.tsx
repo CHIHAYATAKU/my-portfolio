@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { LinkButton } from 'app/_components/LinkButton'
+import { LinkButton } from 'app/_components/elements/LinkButton'
 import styles from "./TopProducts.module.css"
 import Product1 from "./TopProducts_Images/product1.png"
 import Product2 from "./TopProducts_Images/product2.png"

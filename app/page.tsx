@@ -1,19 +1,20 @@
 import Image from "next/image";
-import { TopHello } from "./_components/TopPage/TopHello";
-import { TopAboutMe } from "./_components/TopPage/TopAboutMe";
-import { TopUnivAndRobocon } from "./_components/TopPage/TopUnivAndRobocon";
-import { TopProducts } from "./_components/TopPage/TopProducts";
-import { TopPrivate } from "./_components/TopPage/TopPrivate";
+// import { TopHello } from "./_features/TopPage/components/TopHello";
+// import { TopAboutMe } from "./_features/TopPage/components/TopAboutMe";
+// import { TopUnivAndRobocon } from "./_features/TopPage/components/TopUnivAndRobocon";
+// import { TopProducts } from "./_features/TopPage/components/TopProducts";
+// import { TopPrivate } from "./_features/TopPage/components/TopPrivate";
+import * as TopPage from "./_features/TopPage/index";
 
 export default function Home() {
   return (
     <>
       <div className="content">
-        <TopHello />
-        <TopAboutMe />
-        <TopUnivAndRobocon />
-        <TopProducts />
-        <TopPrivate />
+        <TopPage.TopHello />
+        <TopPage.TopAboutMe />
+        <TopPage.TopUnivAndRobocon />
+        <TopPage.TopProducts />
+        <TopPage.TopPrivate />
       </div>
     </>
   )

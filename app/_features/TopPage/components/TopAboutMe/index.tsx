@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from "./TopAboutMe.module.css"
 // import about1 from "./TopAboutMe_Images/topAboutMe.jpg"
 import about1 from "./TopAboutMe_Images/topme.png"
-import { LinkButton } from 'app/_components/LinkButton'
+import { LinkButton } from 'app/_components/elements/LinkButton'
 import Link from 'next/link'
 // import Slider from './TopAboutMePhotosSlider'
 

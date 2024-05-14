@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./_components/Header";
-import Footer from "./_components/Footer";
+import Header from "./_components/layouts/Header";
+import Footer from "./_components/layouts/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Loading from "./Loading";
-import { BgAnimation } from "./_components/BgAnimation";
+import { BgAnimation } from "./_components/layouts/BgAnimation";
+import { BackToTopButton } from "./_components/layouts/BackToTopButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,8 +30,10 @@ export default function RootLayout({
         <div className="wrapper">
           <BgAnimation />
           <Header />
+          <div id="pagetop"></div>
           {children}
         </div>
+        <BackToTopButton />
         <Footer />
       </body>
     </html >

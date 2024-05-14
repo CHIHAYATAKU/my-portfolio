@@ -4,7 +4,7 @@ import Link from 'next/link';
 import gitlogo from "./Footer_images/git_logo_bottom.svg"
 import instalogo from "./Footer_images/insta_logo_bottom.svg"
 import Image from 'next/image';
-import { MENU_ITEMS } from 'app/utils/Menu_Items';
+import { MENU_ITEMS } from 'app/_utils/Menu_Items';
 
 const Footer = () => {
     return (

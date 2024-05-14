@@ -11,6 +11,7 @@ body {
   max-width: 100dvw;
   overflow-x: hidden;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -67,6 +68,10 @@ body {
 
 .loading span:nth-child(2) {
   border-radius: 72% 28% 16% 84% / 19% 55% 45% 81%;
+}
+
+#pagetop {
+  top: 0;
 }
 
 @keyframes lotate {
