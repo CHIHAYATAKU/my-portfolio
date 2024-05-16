@@ -59,8 +59,8 @@
 }
 
 .h3 {
-    margin: 0;
-    font-size: 1.5rem;
+    margin: 10px auto;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -94,6 +94,24 @@
     flex-grow: 1;
     width: 32%;
     margin: 0 0.5rem;
+    border: 0.5px solid black;
+}
+
+.spanbasic {
+    color: yellow;
+    text-shadow:
+        0.5px 0.5px 0px #000, -0.5px -0.5px 0px #000,
+        -0.5px 0.5px 0px #000, 0.5px -0.5px 0px #000,
+        0.5px 0px 0px #000, -0.5px 0px 0px #000,
+        0px 0.5px 0px #000, 0px -0.5px 0px #000;
+}
+
+.spanmedia {
+    color: blue;
+}
+
+.spanadvanced {
+    color: red;
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {}
@@ -102,5 +120,49 @@
     .container {
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    .level_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .levelblock {
+        width: 100%;
+        margin: 10px;
+        background: none;
+        border: none;
+    }
+
+    /* .level1 {
+        background-color: none !important;
+
+    }
+
+    .level2 {
+        background-color: none !important;
+    }
+
+    .level3 {
+        background-color: none !important;
+    } */
+
+    .imgassets {
+        border: 0.5px solid black;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .level1 .imgassets {
+        background-color: rgba(255, 255, 0, 0.15);
+
+    }
+
+    .level2 .imgassets {
+        background-color: rgba(0, 0, 255, 0.15);
+    }
+
+    .level3 .imgassets {
+        background-color: rgba(255, 0, 0, 0.15);
     }
 }
