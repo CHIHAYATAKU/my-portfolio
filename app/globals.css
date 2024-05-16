@@ -29,7 +29,7 @@ body {
 
 /* ヘッダーの下に内容を配置 */
 .content {
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
 .loading {
@@ -116,7 +116,7 @@ body {
   }
 
   .content {
-    margin-top: 3.5rem;
+    padding-top: 3.5rem;
   }
 }
 
@@ -126,6 +126,6 @@ body {
   }
 
   .content {
-    margin-top: 3.5rem;
+    padding-top: 3.5rem;
   }
 }
