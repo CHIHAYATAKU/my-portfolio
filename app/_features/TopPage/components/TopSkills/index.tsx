@@ -12,10 +12,10 @@ export const TopSkills = () => {
             <section className='section'>
                 <div className={styles.container}>
                     <h2 className={styles.h2}>SKILLS</h2>
-                    <p>私の技術スタックです．私の主観的な評価で<br />
+                    <p>私の技術スタックです．私の主観的な評価で
                         <span className={styles.spanbasic}>BASIC（基礎）</span>，
                         <span className={styles.spanmedia}>INTERMEDIATE（中級）</span>，
-                        <span className={styles.spanadvanced}>ADVANCED（応用）</span><br />
+                        <span className={styles.spanadvanced}>ADVANCED（応用）</span>
                         の3つに分けています．<br />
                     </p>
                     <div className={styles.level_container}>
