@@ -17,7 +17,7 @@ body {
 body {
   background-color: white;
   height: 100vh;
-  height: 100dvh;
+  /* height: 100dvh; */
 }
 
 .wrapper {
@@ -49,7 +49,7 @@ body {
   justify-content: center;
   pointer-events: none;
   z-index: 5000;
-  animation: blur 3s ease forwards;
+  animation: blur 4s ease forwards;
 }
 
 .loading span {
