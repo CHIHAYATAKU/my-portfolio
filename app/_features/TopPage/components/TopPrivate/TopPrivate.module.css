@@ -54,3 +54,10 @@
     object-position: 85% 20%;
     border: solid 2px #777777
 }
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

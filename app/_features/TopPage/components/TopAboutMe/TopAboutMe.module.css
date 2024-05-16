@@ -139,4 +139,9 @@
     .p {
         padding: 0.6875rem 0.6875rem;
     }
+
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }

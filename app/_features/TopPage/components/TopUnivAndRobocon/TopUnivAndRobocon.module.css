@@ -23,6 +23,8 @@
 @media screen and (max-width: 767px) {
     .container {
         flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .box {
