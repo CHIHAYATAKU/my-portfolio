@@ -16,8 +16,8 @@
         background-position: center;
         text-align: center;
         justify-content: center;
-        cursor: pointer;
         animation: blur 3s ease forwards;
+        cursor: pointer;
         margin: 0%;
         padding: 0%;
         position: relative;
