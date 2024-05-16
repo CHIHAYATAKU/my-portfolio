@@ -68,8 +68,8 @@
     position: relative;
     /* width: 15.625rem;
     height: 15.625rem; */
-    width: 3.90625rem;
-    height: 3.90625rem;
+    width: 4.03rem;
+    height: 4.03rem;
     padding: 0.7rem;
 }
 
@@ -90,7 +90,6 @@
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-bottom: 0;
     flex-grow: 1;
     width: 32%;
     margin: 0 0.5rem;
@@ -164,5 +163,10 @@
 
     .level3 .imgassets {
         background-color: rgba(255, 0, 0, 0.15);
+    }
+
+    .skills {
+        width: 75px;
+        height: 75px;
     }
 }
