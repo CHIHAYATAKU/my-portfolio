@@ -14,7 +14,7 @@ export const TopHello = () => {
                     <h1 className={styles.h1}>
                         Hello!<br />
                         This is<br />
-                        Takuma Chihaya's<br />
+                        Takuma Chihaya`s<br />
                         portfolio!
                     </h1>
                     <p className={styles.p}>宮崎大学工学部所属，宅間千隼のポートフォリオサイトです．<br />
