@@ -14,6 +14,7 @@ export default function Home() {
         <TopPage.TopAboutMe />
         <TopPage.TopUnivAndRobocon />
         <TopPage.TopProducts />
+        <TopPage.TopSkills />
         <TopPage.TopPrivate />
       </div>
     </>
