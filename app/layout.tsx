@@ -11,7 +11,7 @@ import { BackToTopButton } from "./_components/layouts/BackToTopButton";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Takuma Portfolio",
+  title: "宅間千隼のポートフォリオサイト",
   description: "Takuma Portfolio",
 };
 
