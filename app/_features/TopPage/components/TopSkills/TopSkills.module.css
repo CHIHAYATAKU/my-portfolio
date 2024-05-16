@@ -97,7 +97,8 @@
 }
 
 .spanbasic {
-    color: yellow;
+    color: rgba(255, 255, 0, 0.9);
+    font-weight: bold;
     text-shadow:
         0.5px 0.5px 0px #000, -0.5px -0.5px 0px #000,
         -0.5px 0.5px 0px #000, 0.5px -0.5px 0px #000,
@@ -106,11 +107,13 @@
 }
 
 .spanmedia {
-    color: blue;
+    color: rgba(0, 0, 255, 0.9);
+    font-weight: bold;
 }
 
 .spanadvanced {
-    color: red;
+    color: rgba(255, 0, 0, 0.9);
+    font-weight: bold;
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {}
