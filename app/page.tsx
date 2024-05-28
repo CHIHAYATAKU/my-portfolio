@@ -1,12 +1,6 @@
-import Image from "next/image";
-// import { TopHello } from "./_features/TopPage/components/TopHello";
-// import { TopAboutMe } from "./_features/TopPage/components/TopAboutMe";
-// import { TopUnivAndRobocon } from "./_features/TopPage/components/TopUnivAndRobocon";
-// import { TopProducts } from "./_features/TopPage/components/TopProducts";
-// import { TopPrivate } from "./_features/TopPage/components/TopPrivate";
 import * as TopPage from "./_features/TopPage/index";
 
-export default function Home() {
+export default function Top() {
   return (
     <>
       <div className="content">

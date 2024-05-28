@@ -6,6 +6,7 @@ import styles from "./TopPrivate.module.css"
 import private1 from "./TopPrivate_Images/private1.jpg"
 import private2 from "./TopPrivate_Images/private2.jpg"
 import private3 from "./TopPrivate_Images/private3.jpg"
+import sampleImg from "public/Images/sample.jpg"
 
 export const TopPrivate = () => {
     return (
@@ -15,7 +16,7 @@ export const TopPrivate = () => {
                     <h2 className={styles.h2}>PRIVATE</h2>
                     <div className={styles.imgassets}>
                         <div className={styles.element}>
-                            <Image className={styles.private} src={private1} alt='private1' />
+                            <Image className={styles.private} src={sampleImg} alt='private1' />
                             <p className={styles.p}>
                                 玉置浩二コンサート
                             </p>

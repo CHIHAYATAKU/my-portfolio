@@ -1,0 +1,123 @@
+.h2 {
+    position: relative;
+    font-size: 2.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 0.6875rem;
+    margin: 0%;
+    margin-bottom: 0.6875rem;
+}
+
+.h3 {
+    font-size: 1.25rem;
+    margin: 0%;
+}
+
+.p {
+    position: relative;
+    font-size: 0.875rem;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 19.44%;
+    padding-left: 19.44%;
+    padding-bottom: 6.375rem;
+}
+
+.SkillsLevel {
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSkills {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oneMainSkill {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 31.818%;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.CppiconDiv {
+    background-color: rgba(217, 217, 217, 0.25);
+}
+
+.TSiconDiv {
+    background-color: rgba(169, 185, 203, 0.25);
+}
+
+.PythoniconDiv {
+    background-color: rgba(251, 179, 1, 0.25);
+}
+
+
+.iconDiv {
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+    /* flex-grow: 1; */
+}
+
+.skillIcon {
+    width: 9.375rem;
+    height: 9.375rem;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .h2 {
+        padding: 0 0 0.6875rem 0;
+    }
+
+    .p {
+        padding: 0.6875rem 0.6875rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .h2 {
+        padding: 0 0 0.6875rem 0;
+    }
+
+    .p {
+        padding: 0.6875rem 0.6875rem;
+    }
+
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .mainSkills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oneMainSkill {
+        width: 100%;
+        margin: 10px;
+    }
+}

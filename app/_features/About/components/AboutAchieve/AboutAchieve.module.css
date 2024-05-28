@@ -1,0 +1,80 @@
+.h2 {
+    position: relative;
+    font-size: 2.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 0.6875rem;
+    margin: 0%;
+    margin-bottom: 0.6875rem;
+}
+
+.p {
+    position: relative;
+    font-size: 0.875rem;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 0.4375rem;
+}
+
+.keyWords {
+    margin: 0%;
+    margin-top: 0.6875rem;
+}
+
+.keyWordsFlex {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 19.44%;
+    padding-left: 19.44%;
+    padding-bottom: 6.375rem;
+}
+
+.oneLine {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nextLine {
+    margin-bottom: 1.25rem;
+}
+
+.pointLogo {
+    width: 0.875rem;
+    height: 0.875rem;
+}
+
+.a {
+    color: blue;
+}
+
+.a:hover {
+    color: green;
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .h2 {
+        padding: 0 0 0.6875rem 0;
+    }
+
+    .p {
+        padding: 0.6875rem 0.6875rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .h2 {
+        padding: 0 0 0.6875rem 0;
+    }
+
+    .p {
+        padding: 0.6875rem 0.6875rem;
+    }
+}

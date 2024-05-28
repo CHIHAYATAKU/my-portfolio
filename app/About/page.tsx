@@ -1,13 +1,14 @@
-import React from 'react'
-import styles from "./About.module.css";
-import Image from "next/image";
+import * as AboutPage from "../_features/About/index";
 
-
-export default function Page() {
+export default function About() {
     return (
         <>
-            <div className={styles.container}>
-                <div>About</div>
+            <div className="content">
+                <AboutPage.AboutOutLook />
+                <AboutPage.AboutCareer />
+                <AboutPage.AboutStrengthAndWeakness />
+                <AboutPage.AboutAchieve />
+                <AboutPage.AboutSkills />
             </div>
         </>
     )

@@ -1,7 +1,9 @@
+import styles from "app/Loading.module.css"
+
 export default function Loading() {
     return (
         <>
-            <div className="loading">
+            <div className={styles.loading}>
                 <span></span>
                 <span></span>
                 <span></span>
