@@ -119,7 +119,7 @@ export const TopSkills = () => {
                             </div>
                         </div>
                     </div> */}
-                    <Link href={"Skills"} className="button"><LinkButton /></Link>
+                    <Link href={"About#skills"} className="button"><LinkButton /></Link>
                 </div>
             </section>
         </>

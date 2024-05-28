@@ -33,6 +33,11 @@
     padding-bottom: 6.375rem;
 }
 
+#skills {
+    position: relative;
+    top: 0;
+}
+
 .SkillsLevel {
     justify-content: center;
     align-items: center;

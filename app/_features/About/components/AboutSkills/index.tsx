@@ -8,7 +8,7 @@ export const AboutSkills = () => {
     return (
         <>
             <section className={styles.section}>
-                <div className={styles.container}>
+                <div className={styles.container} id='skills'>
                     <h2 className={styles.h2}>SKILLS</h2>
                     <div className={styles.mainSkills}>
                         <div className={styles.oneMainSkill}>

@@ -4,6 +4,6 @@ export const MENU_ITEMS = [
     { href: "ETRobocon", label: "ETROBOCON" },
     { href: "Products", label: "PRODUCTS" },
     { href: "Univ", label: "UNIV" },
-    { href: "Skills", label: "SKILLS" },
+    // { href: "About#skills", label: "SKILLS" },
     { href: "Private", label: "PRIVATE" },
 ];
