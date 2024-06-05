@@ -22,7 +22,7 @@
     object-fit: cover; */
     width: 18.20875rem;
     height: 18.20875rem;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 100%;
     border: solid 2px #777777
 }

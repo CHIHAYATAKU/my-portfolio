@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import styles from "./TopAboutMe.module.css"
 // import about1 from "./TopAboutMe_Images/topAboutMe.jpg"
-import about1 from "./TopAboutMe_Images/topme.png"
+import about1 from "public/Images/AboutPage/img_about_main.png"
 import { LinkButton } from 'app/_components/elements/LinkButton'
 import Link from 'next/link'
 // import Slider from './TopAboutMePhotosSlider'
