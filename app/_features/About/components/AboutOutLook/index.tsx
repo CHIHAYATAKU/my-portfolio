@@ -20,7 +20,7 @@ export const AboutOutLook = () => {
                             </div>
                         </div>
                         <div className={styles.subPagesBelowElementsBoth}>
-                            <p className={styles.p}>・宅間千隼（タクマチハヤ）<br />
+                            <p className={styles.p}>
                                 ・宅間千隼（タクマチハヤ）<br />
                                 ・2002年生まれ，宮崎県出身 <br />
                                 ・宮崎大学工学部4年生 <br />

@@ -59,4 +59,19 @@
     .p {
         padding: 0.6875rem 0.6875rem;
     }
+
+    .container {
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .left {
+        width: 100%;
+        padding-bottom: 6.375rem;
+    }
+
+    .right {
+        width: 100%;
+    }
 }
