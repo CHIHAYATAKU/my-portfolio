@@ -74,7 +74,7 @@
 
     .humburger_icon_opened span:nth-child(3) {
         position: fixed;
-        transform: translate(0, 90px) rotate(-360deg);
+        transform: translate(0, 5.625rem) rotate(-360deg);
         right: 25%;
         width: 50%;
     }
