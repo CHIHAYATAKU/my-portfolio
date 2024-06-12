@@ -14,8 +14,8 @@ export const Humburger_Menu = () => {
     };
 
     return (
-        <div className={styles.humburger}>
-            <div onClick={toggleMenu} className={`${styles.humburger_menu} ${isMenuOpen ? styles.humburger_icon_opened : styles.humburger_icon_closed}`}>
+        <div onClick={toggleMenu} className={styles.humburger}>
+            <div className={`${styles.humburger_menu} ${isMenuOpen ? styles.humburger_icon_opened : styles.humburger_icon_closed}`}>
                 <span className={styles.border}></span>
                 <span className={styles.border}></span>
                 <span className={styles.border}></span>
