@@ -29,7 +29,7 @@ export default function RootLayout({
         <Loading />
         <div className="wrapper">
           <BgAnimation />
-          {/* <Header /> */}
+          <Header />
           <div id="pagetop"></div>
           {children}
         </div>
