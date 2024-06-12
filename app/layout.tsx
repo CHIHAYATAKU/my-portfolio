@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Loading from "./Loading";
 import { BgAnimation } from "./_components/layouts/BgAnimation";
 import { BackToTopButton } from "./_components/layouts/BackToTopButton";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,16 +26,19 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
+
       <body className={inter.className}>
-        <Loading />
-        <div className="wrapper">
-          <BgAnimation />
-          <Header />
-          <div id="pagetop"></div>
-          {children}
-        </div>
-        <BackToTopButton />
-        <Footer />
+        <Suspense fallback={<Loading />}>
+          {/* <Loading /> */}
+          <div className="wrapper">
+            <BgAnimation />
+            <Header />
+            <div id="pagetop"></div>
+            {children}
+          </div>
+          <BackToTopButton />
+          <Footer />
+        </Suspense>
       </body>
     </html >
   );
