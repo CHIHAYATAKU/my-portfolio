@@ -22,9 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <head>
+      {/* <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
+      </head> */}
       <body className={inter.className}>
         <Loading />
         <div className="wrapper">
