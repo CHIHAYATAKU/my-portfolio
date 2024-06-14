@@ -1,7 +1,14 @@
-export default function Page() {
+import * as ETRoboconPage from "../_features/ETRobocon/index";
+
+export default function ETRobocon() {
     return (
         <>
-            <div>ETRocon</div>
+            <div className="content">
+                <ETRoboconPage.ETRoboconOutLook />
+                <ETRoboconPage.ETRoboconAbout />
+                <ETRoboconPage.ETRoboconAchieve />
+                <ETRoboconPage.ETRoboconOurModel />
+            </div>
         </>
     )
 }

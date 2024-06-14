@@ -1,11 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from "./AboutOutLook.module.css"
-// import about1 from "./TopAboutMe_Images/topAboutMe.jpg"
-import { LinkButton } from 'app/_components/elements/LinkButton'
-import Link from 'next/link'
 import mainImg from "public/Images/AboutPage/img_about_main.png"
-// import Slider from './TopAboutMePhotosSlider'
 
 export const AboutOutLook = () => {
     return (
