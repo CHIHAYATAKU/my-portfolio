@@ -5,12 +5,12 @@ import awardLogo from "./ETRoboconAchieve_Images/award-fill.svg"
 
 //追記はAchieve_Nextcontentsに加える 
 const Achieve_NextContents = [
-    // { date: "2024/02", content: "宮崎大学データサイエンス・AI 教育プログラム（応用基礎レベル）オープンバッジ取得" },
+    { date: "更新をお待ちください", content: "" },
 ];
 
-const keyWords_ITEM = [
-    // { href: "https://www.soar.jp/", label: "ソア・システムズ" },
-];
+// const keyWords_ITEM = [
+//     { href: "https://www.soar.jp/", label: "ソア・システムズ" },
+// ];
 
 export const ETRoboconAchieve = () => {
     return (
@@ -48,13 +48,13 @@ export const ETRoboconAchieve = () => {
                         </p>
                     </div>
 
-                    <div className={styles.keyWordsFlex}>
+                    {/* <div className={styles.keyWordsFlex}>
                         {keyWords_ITEM.map((item, index) => {
                             return (
                                 <div key={index} className={styles.keyWords}><p className={styles.p}><a className={styles.a} href={item.href}>#{item.label}</a></p></div>
                             )
                         })}
-                    </div>
+                    </div> */}
                 </div>
             </section >
         </>
