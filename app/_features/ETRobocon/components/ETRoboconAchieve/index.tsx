@@ -4,9 +4,9 @@ import styles from "./ETRoboconAchieve.module.css"
 import awardLogo from "./ETRoboconAchieve_Images/award-fill.svg"
 
 //追記はAchieve_Nextcontentsに加える 
-const Achieve_NextContents = [
-    { date: "更新をお待ちください", content: "" },
-];
+// const Achieve_NextContents = [
+//     { date: "更新をお待ちください", content: "" },
+// ];
 
 // const keyWords_ITEM = [
 //     { href: "https://www.soar.jp/", label: "ソア・システムズ" },
@@ -20,7 +20,7 @@ export const ETRoboconAchieve = () => {
                     <h2 className={styles.h2}>ACHIEVE</h2>
 
                     {/* keyにindex(例)を指定すると警告が消える */}
-                    {Achieve_NextContents.map((item, index) => {
+                    {/* {Achieve_NextContents.map((item, index) => {
                         return (
                             <div key={index} className={`${styles.nextLine} ${styles.oneLine}`}>
                                 <div className={styles.divDate}>
@@ -34,7 +34,7 @@ export const ETRoboconAchieve = () => {
                                 </p>
                             </div>
                         )
-                    })}
+                    })} */}
                     {/* 最後の行だけclassNameが異なるため，直接書いている */}
                     <div className={`${styles.lastLine} ${styles.oneLine}`}>
                         <div className={styles.divDate}>
