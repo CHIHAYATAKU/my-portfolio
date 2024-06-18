@@ -1,7 +1,11 @@
-export default function Page() {
+import * as ProductsPage from "../_features/Products/index";
+
+export default function Products() {
     return (
         <>
-            <div>Product</div>
+            <div className="content">
+                <ProductsPage.ProductsOutLook />
+            </div>
         </>
     )
 }

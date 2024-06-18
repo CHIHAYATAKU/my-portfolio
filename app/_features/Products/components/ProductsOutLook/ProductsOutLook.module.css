@@ -1,0 +1,92 @@
+.h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.p {
+    position: relative;
+    font-size: 0.875rem;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 19.44%;
+    padding-left: 19.44%;
+    padding-top: 6.375rem;
+    padding-bottom: 6.375rem;
+}
+
+.divImg {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+.mainImg {
+    width: 18.20875rem;
+    height: 18.20875rem;
+    /* width: 25rem;
+    height: 25rem; */
+    object-fit: cover;
+    border-radius: 100%;
+    border: solid 2px #777777
+}
+
+.subPagesBelowElements {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.subPagesBelowElementsBoth {
+    position: relative;
+    width: 47.773%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .p {
+        padding: 0.6875rem 0.6875rem;
+    }
+
+    .subPagesBelowElements {
+        flex-direction: column;
+    }
+
+    .subPagesBelowElementsBoth {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .p {
+        padding: 0.6875rem 0.6875rem;
+    }
+
+    .subPagesBelowElements {
+        flex-direction: column;
+
+    }
+
+    .subPagesBelowElementsBoth {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
