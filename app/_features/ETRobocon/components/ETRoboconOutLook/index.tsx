@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from "./ETRoboconOutLook.module.css"
-import mainImg from "public/Images/ETRobocon/img_etrobocon_main.JPEG"
+import mainImg from "public/Images/ETRobocon/img_etrobocon_main.jpg"
 
 export const ETRoboconOutLook = () => {
     return (
