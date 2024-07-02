@@ -27,16 +27,15 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={inter.className}>
-        <Suspense fallback={<Loading />}>
-          <div className="wrapper">
-            <BgAnimation />
-            <Header />
-            <div id="pagetop"></div>
-            {children}
-          </div>
-          <BackToTopButton />
-          <Footer />
-        </Suspense>
+        <Loading />
+        <div className="wrapper">
+          <BgAnimation />
+          <Header />
+          <div id="pagetop"></div>
+          {children}
+        </div>
+        <BackToTopButton />
+        <Footer />
       </body>
     </html >
   );

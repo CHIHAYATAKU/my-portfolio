@@ -15,7 +15,7 @@
     justify-content: center;
     pointer-events: none;
     z-index: 5000;
-    /* animation: blur 4s ease forwards; */
+    animation: blur 5s ease forwards;
 }
 
 .loading span {
@@ -52,7 +52,7 @@
     font-weight: 700;
 }
 
-/* @keyframes blur {
+@keyframes blur {
     30% {
         opacity: 1;
         filter: blur(0);
@@ -62,4 +62,4 @@
         opacity: 0;
         filter: blur(7px);
     }
-} */
+}
