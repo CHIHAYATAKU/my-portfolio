@@ -96,8 +96,8 @@
 
     .menutext {
         position: relative;
-        padding-top: 50px;
-        margin: 24px;
+        padding-top: 3.125rem;
+        margin: 1.5rem;
         width: 100%;
         font-size: 1.2rem;
         color: white;
