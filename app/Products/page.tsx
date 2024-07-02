@@ -5,6 +5,7 @@ export default function Products() {
         <>
             <div className="content">
                 <ProductsPage.ProductsOutLook />
+                <ProductsPage.ProductsContents />
             </div>
         </>
     )

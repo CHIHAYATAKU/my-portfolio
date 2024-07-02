@@ -1,7 +1,13 @@
-export default function Page() {
+import * as UnivPage from "../_features/Univ/index";
+
+export default function Products() {
     return (
         <>
-            <div>University</div>
+            <div className="content">
+                <UnivPage.UnivOutLook />
+                <UnivPage.UnivLesson />
+                <UnivPage.UnivClab />
+            </div>
         </>
     )
 }

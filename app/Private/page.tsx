@@ -1,7 +1,12 @@
-export default function Page() {
+import * as PrivatePage from "../_features/Private/index";
+
+export default function Private() {
     return (
         <>
-            <div>Private</div>
+            <div className="content">
+                <PrivatePage.PrivateOutLook />
+                <PrivatePage.PrivateContents />
+            </div>
         </>
     )
 }
