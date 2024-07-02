@@ -25,7 +25,7 @@ body {
 
 /* ヘッダーの下に内容を配置 */
 .content {
-  padding-top: 4rem;
+  padding-top: 3.5rem;
 }
 
 #pagetop {
@@ -43,18 +43,10 @@ body {
   html {
     font-size: 15px;
   }
-
-  .content {
-    padding-top: 3.5rem;
-  }
 }
 
 @media screen and (max-width: 767px) {
   html {
-    font-size: 14px;
-  }
-
-  .content {
-    padding-top: 3.5rem;
+    font-size: 15px;
   }
 }
