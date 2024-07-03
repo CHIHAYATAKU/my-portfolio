@@ -1,17 +1,11 @@
 import styles from "./ClubVideoes.module.css"
 import React from 'react';
 
-export const Video = () => {
+export default function Video() {
     return (
         <>
-            <video className={styles.video} controls preload="none" playsInline>
-                <source src="/UnivClub_Videoes/lupin.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video >
-            <video className={styles.video} controls preload="none" playsInline>
-                <source src="/UnivClub_Videoes/tabiji.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+            <video className={styles.video} src={require('public/UnivClub_Videoes/lupin.mp4')} controls playsInline />
+            <video className={styles.video} src={require('public/UnivClub_Videoes/tabiji.mp4')} controls playsInline />
         </>
     )
 }
