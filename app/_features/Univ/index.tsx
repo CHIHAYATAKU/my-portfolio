@@ -1,5 +1,5 @@
 import { UnivOutLook } from "./components/UnivOutLook"
 import { UnivLesson } from "./components/UnivLesson";
-import { UnivClab } from "./components/UnivClab";
+import { UnivClub } from "./components/UnivClub";
 
-export { UnivOutLook, UnivLesson, UnivClab };
+export { UnivOutLook, UnivLesson, UnivClub };
