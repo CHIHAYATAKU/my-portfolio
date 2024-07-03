@@ -1,7 +1,7 @@
 import styles from "./ClubVideoes.module.css"
 import React from 'react';
 
-export default function Video() {
+export const Video = () => {
     return (
         <>
             <video className={styles.video} src={require('public/UnivClub_Videoes/lupin.mp4')} controls playsInline />
