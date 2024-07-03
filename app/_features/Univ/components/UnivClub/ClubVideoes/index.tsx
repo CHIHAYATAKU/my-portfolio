@@ -1,7 +1,7 @@
 import styles from "./video.module.css"
 import React from 'react';
 
-export function Video() {
+export const Video = () => {
     return (
         <>
             <video className={styles.video} controls preload="none" playsInline>
