@@ -1,0 +1,19 @@
+.video {
+    width: 49%;
+    height: auto;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .video {
+        width: 99%;
+        padding: 0.6875rem 0.6875rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video {
+        width: 99%;
+        padding: 0.6875rem 0.6875rem;
+    }
+}
