@@ -17,8 +17,14 @@ export const UnivClub = () => {
                             私が1年生の時に入部してから3年生の4月までは部員は4~6名程でしたが，現在では20人程の部員数になり，存続できそうで嬉しいです．
                         </p>
                         <div className={styles.divVideoes}>
-                            <video className={styles.video} src={lupin} controls controlsList="nodownload" playsInline autoPlay muted />
-                            <video className={styles.video} src={tabiji} controls controlsList="nodownload" playsInline autoPlay muted />
+                            <video className={styles.video} controls preload="none">
+                                <source src={lupin} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                            <video className={styles.video} controls preload="none">
+                                <source src={tabiji} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
                 </div>
