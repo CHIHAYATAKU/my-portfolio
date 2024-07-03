@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./UnivClub.module.css"
-import { Video } from './ClubVideoes/video'
+import { Video } from './ClubVideoes/index'
 
 export const UnivClub = () => {
     return (
