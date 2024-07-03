@@ -1,4 +1,4 @@
-import styles from "./video.module.css"
+import styles from "./ClubVideoes.module.css"
 import React from 'react';
 
 export const Video = () => {
