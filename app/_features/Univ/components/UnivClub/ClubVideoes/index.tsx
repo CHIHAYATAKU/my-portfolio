@@ -4,8 +4,26 @@ import React from 'react';
 export const Video = () => {
     return (
         <>
-            <video className={styles.video} src={require('public/UnivClub_Videoes/lupin.mp4')} controls playsInline />
-            <video className={styles.video} src={require('public/UnivClub_Videoes/tabiji.mp4')} controls playsInline />
+            <div className={styles.element}>
+                <iframe
+                    className={styles.video}
+                    src="https://www.youtube.com/embed/J9xNUFndyoA?si=o1Mi6Lvcsa8GwUu5"
+                    title="ルパン三世のテーマ"
+                    frameBorder={0}
+                    allowFullScreen
+                    loading="lazy"
+                />
+            </div>
+            <div className={styles.element}>
+                <iframe
+                    className={styles.video}
+                    src="https://www.youtube.com/embed/rcrrmMuu7Y0?si=_oOOHj-ehkAj1YH9"
+                    title="旅路"
+                    frameBorder={0}
+                    allowFullScreen
+                    loading="lazy"
+                />
+            </div>
         </>
     )
 }

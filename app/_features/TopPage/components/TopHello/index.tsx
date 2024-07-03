@@ -20,7 +20,7 @@ export const TopHello = () => {
                     <p className={styles.p}>宮崎大学工学部所属，宅間千隼のポートフォリオサイトです．<br />
                         私のプロフィール，ETロボコン，成果物．大学生活などをまとめました．</p>
                     <div className={styles.sns}>
-                        <Image id={styles.gitlogo} src={Git_logo} alt="Github" />
+                        <a className={styles.a} href="https://github.com/CHIHAYATAKU"><Image id={styles.gitlogo} src={Git_logo} alt="Github" /></a>
                         <Image id={styles.instalogo} src={Insta_logo} alt="Instagram" />
                     </div>
                 </div>

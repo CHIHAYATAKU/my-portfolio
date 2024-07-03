@@ -25,8 +25,8 @@ const Footer = () => {
                     </nav>
                 </div>
                 <div className={styles.sns}>
-                    <Image id={styles.gitlogo} src={gitlogo} alt="Github" />
-                    <Image id={styles.instalogo} src={instalogo} alt="Instagram" />
+                    <a className={styles.a} href="https://github.com/CHIHAYATAKU"><Image id={styles.gitlogo} src={gitlogo} alt="Github" /></a>
+                    <Image id={styles.instalogo} src={instalogo} alt="qiitaに変えたい" />
                 </div>
                 <p id={styles.copy}>&copy;2024 Takuma Chihaya.</p>
             </div>

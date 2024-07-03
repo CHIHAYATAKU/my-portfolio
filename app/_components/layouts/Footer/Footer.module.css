@@ -28,6 +28,11 @@
 #instalogo {
     width: 2.188rem;
     height: 2.188rem;
+    transition: transform 0.3s ease;
+}
+
+#gitlogo:hover {
+    transform: scaleX(-1) scale(1.3);
 }
 
 .link {
