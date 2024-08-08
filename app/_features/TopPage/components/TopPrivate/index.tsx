@@ -9,9 +9,9 @@ import private3 from "./TopPrivate_Images/private3.jpg"
 import sampleImg from "public/Images/sample.jpg"
 
 const PRIVATE_ITEM = [
-    { src: sampleImg, label: "玉置浩二コンサート" },
-    { src: private2, label: "愛ネコ" },
-    { src: private3, label: "私と景色" },
+    { src: sampleImg, title: "玉置浩二コンサート", content: "ああああああああああああああああ" },
+    { src: private2, title: "愛ネコ", content: "ああああああああああああああああ" },
+    { src: private3, title: "私と景色", content: "ああああああああああああああああ" },
 ];
 
 export const TopPrivate = () => {
@@ -25,10 +25,15 @@ export const TopPrivate = () => {
                             return (
                                 <>
                                     <div className={styles.element}>
-                                        <Image className={styles.private} src={item.src} alt={item.label} />
-                                        <p className={styles.p}>
-                                            {item.label}
-                                        </p>
+                                        <Image className={styles.private} src={item.src} alt={item.title} />
+                                        <div className={styles.description}>
+                                            <p className={styles.title}>
+                                                {item.title}
+                                            </p>
+                                            <p className={styles.content}>
+                                                {item.content}
+                                            </p>
+                                        </div>
                                     </div>
                                 </>
                             )

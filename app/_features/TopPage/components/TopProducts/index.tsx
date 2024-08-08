@@ -7,9 +7,9 @@ import Product1 from "./TopProducts_Images/product1.png"
 import Product2 from "./TopProducts_Images/product2.png"
 
 const PRODUCTS_ITEM = [
-    { src: Product1, label: "ポートフォリオサイト" },
-    { src: Product2, label: "ギター練習アプリ" },
-    { src: Product1, label: "更新をお待ちください" },
+    { src: Product1, title: "ポートフォリオサイト", content: "ああああああああああああああああ" },
+    { src: Product2, title: "ギター練習アプリ", content: "ああああああああああああああああ" },
+    { src: Product1, title: "更新をお待ちください", content: "ああああああああああああああああ" },
 ];
 
 
@@ -24,15 +24,20 @@ export const TopProducts = () => {
                             return (
                                 <>
                                     <div className={styles.element}>
-                                        <Image className={styles.products} src={item.src} alt={item.label} />
-                                        <p className={styles.p}>
-                                            {item.label}
-                                        </p>
+                                        <Image className={styles.products} src={item.src} alt={item.title} />
+                                        <div className={styles.description}>
+                                            <p className={styles.title}>
+                                                {item.title}
+                                            </p>
+                                            <p className={styles.content}>
+                                                {item.content}
+                                            </p>
+                                        </div>
                                     </div>
                                 </>
                             )
                         })}
-                    </div>
+                    </div >
                     <Link href={"Products"} className="button"><LinkButton /></Link>
                 </div>
             </section>

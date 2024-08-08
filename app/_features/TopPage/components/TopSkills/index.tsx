@@ -19,11 +19,8 @@ export const SkillsLevel = () => {
                     <h3 className={`${styles.kihon} ${styles.h3}`}>BASIC</h3>
                     <div className={`${styles.imgassets}`}>
                         <Image className={styles.skills} src={icons.arduino} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.bootstrap} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.cisco} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.figma} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.notion} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.gns} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.vs} alt='skill_icon' />
                     </div>
                 </div>
@@ -36,27 +33,22 @@ export const SkillsLevel = () => {
                         <Image className={styles.skills} src={icons.react} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.nodejs} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.nextjs} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.vercel} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.myspl} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.postgresql} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.slack} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.git} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.github} alt='skill_icon' />
+                        <Image className={styles.skills} src={icons.css} alt='skill_icon' />
                     </div>
                 </div>
 
                 <div className={`${styles.levelblock} ${styles.level3}`}>
                     <h3 className={`${styles.ouyou} ${styles.h3}`}>ADVANCED</h3>
                     <div className={`${styles.imgassets} `}>
+                        <Image className={styles.skills} src={icons.git} alt='skill_icon' />
+                        <Image className={styles.skills} src={icons.github} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.c} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.cpp} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.python} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.teams} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.emacs} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.html} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.css} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.linux} alt='skill_icon' />
-                        <Image className={styles.skills} src={icons.ubuntu} alt='skill_icon' />
                         <Image className={styles.skills} src={icons.vscode} alt='skill_icon' />
                     </div>
                 </div>
