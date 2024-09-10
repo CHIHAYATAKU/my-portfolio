@@ -1,3 +1,5 @@
+'use client';
+
 import * as PrivatePage from "../_features/Private/index";
 
 export default function Private() {
