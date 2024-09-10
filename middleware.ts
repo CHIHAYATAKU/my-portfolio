@@ -1,7 +1,9 @@
 import { NextResponse, NextRequest } from 'next/server'
 
 export const middleware = (req: NextRequest) => {
-    if (process.env.BASIC_AUTH_DISABLED === 'true') {
+    if (
+        process.env.BASIC_AUTH_DISABLED === 'true'
+    ) {
         return NextResponse.next()
     }
 
@@ -10,7 +12,7 @@ export const middleware = (req: NextRequest) => {
     if (basicAuth) {
         const authValue = basicAuth.split(' ')[1]
 
-        const [username, password] = Buffer.from(authValue, 'base64').toString().split(':')
+        const [username, password] = atob(authValue).split(':')
 
         if (
             username === process.env.BASIC_AUTH_SECRET &&
@@ -20,11 +22,13 @@ export const middleware = (req: NextRequest) => {
         }
     }
 
-    const url = req.nextUrl.clone()
+    const url = req.nextUrl
     url.pathname = '/api/auth'
-    return NextResponse.redirect(url)
+
+    return NextResponse.rewrite(url)
 }
 
 export const config = {
     matcher: ['/Private'],
 }
+
