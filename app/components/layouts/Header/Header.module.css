@@ -9,7 +9,8 @@
     width: 100%;
     height: 3.5rem;
     z-index: 1000;
-    border-bottom: 0.126rem solid #000000;
+    /* /* border-bottom: 0.126rem solid #000000; */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .container {
