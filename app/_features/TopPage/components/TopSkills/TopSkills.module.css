@@ -17,6 +17,7 @@
     justify-content: space-around;
     align-content: flex-start;
     flex-wrap: wrap;
+    box-shadow: 0 0 1px gray;
 }
 
 
@@ -40,6 +41,7 @@
     margin: 10px auto;
     font-size: 1.25rem;
     font-weight: bold;
+    background-color: none;
 }
 
 .skills {
@@ -69,23 +71,25 @@
     align-items: center;
     justify-content: flex-start;
     width: 31.818%;
+    background: none;
+    border: none;
     /* margin: 0 0.5rem; */
     box-shadow: 0 0 10px gray;
     /* border: 0.5px solid black; */
 }
 
 .level1 {
-    background-color: rgba(255, 255, 0, 0.15);
+    background-color: none !important;
+
 }
 
 .level2 {
-    background-color: rgba(0, 0, 255, 0.15);
+    background-color: none !important;
 }
 
 .level3 {
-    background-color: rgba(255, 0, 0, 0.15);
+    background-color: none !important;
 }
-
 
 .spanbasic {
     color: rgba(255, 255, 0, 0.9);
@@ -107,6 +111,18 @@
     font-weight: bold;
 }
 
+.level1 .imgassets {
+    background-color: rgba(255, 255, 0, 0.15);
+}
+
+.level2 .imgassets {
+    background-color: rgba(0, 0, 255, 0.15);
+}
+
+.level3 .imgassets {
+    background-color: rgba(255, 0, 0, 0.15);
+}
+
 @media screen and (min-width: 768px) and (max-width: 960px) {}
 
 @media screen and (max-width: 767px) {
@@ -123,40 +139,14 @@
     .levelblock {
         width: 100%;
         margin: 10px;
-        background: none;
-        border: none;
-    }
-
-    .level1 {
-        background-color: none !important;
-
-    }
-
-    .level2 {
-        background-color: none !important;
-    }
-
-    .level3 {
-        background-color: none !important;
+        /* background: none;
+        border: none; */
     }
 
     .imgassets {
-        border: 0.5px solid black;
+        /* border: 0.5px solid black; */
         justify-content: center;
         align-items: center;
-    }
-
-    .level1 .imgassets {
-        background-color: rgba(255, 255, 0, 0.15);
-
-    }
-
-    .level2 .imgassets {
-        background-color: rgba(0, 0, 255, 0.15);
-    }
-
-    .level3 .imgassets {
-        background-color: rgba(255, 0, 0, 0.15);
     }
 
     .skills {
