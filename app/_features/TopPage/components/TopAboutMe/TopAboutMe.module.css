@@ -24,7 +24,8 @@
     height: 18.20875rem;
     object-fit: cover;
     border-radius: 100%;
-    border: solid 2px #777777
+    box-shadow: 0 0 10px gray;
+    /* border: solid 2px #777777 */
 }
 
 /* .button {

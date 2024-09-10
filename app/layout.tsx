@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./_components/layouts/Header";
-import Footer from "./_components/layouts/Footer";
+import Header from "./components/layouts/Header";
+import Footer from "./components/layouts/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Loading from "./Loading";
-import { BgAnimation } from "./_components/layouts/BgAnimation";
-import { BackToTopButton } from "./_components/layouts/BackToTopButton";
+import { BgAnimation } from "./components/layouts/BgAnimation";
+import { BackToTopButton } from "./components/layouts/BackToTopButton";
 import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });

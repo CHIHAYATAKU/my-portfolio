@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from "./AboutSkills.module.css"
-import * as SkillIccons from "app/_components/elements/SkillIcons/index"
+import * as SkillIccons from "app/components/elements/SkillIcons/index"
 import { SkillsLevel } from 'app/_features/TopPage/components/TopSkills'
 
 export const AboutSkills = () => {

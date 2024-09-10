@@ -70,7 +70,8 @@
     justify-content: flex-start;
     width: 31.818%;
     /* margin: 0 0.5rem; */
-    border: 0.5px solid black;
+    box-shadow: 0 0 10px gray;
+    /* border: 0.5px solid black; */
 }
 
 .level1 {

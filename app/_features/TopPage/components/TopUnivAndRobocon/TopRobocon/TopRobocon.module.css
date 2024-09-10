@@ -2,7 +2,8 @@
     position: relative;
     width: 99%;
     height: auto;
-    border: solid 2px #777777
+    box-shadow: 0 0 10px gray;
+    /* border: solid 2px #777777 */
 }
 
 .divimg {

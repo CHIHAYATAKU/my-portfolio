@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import { LinkButton } from 'app/_components/elements/LinkButton'
+import { LinkButton } from 'app/components/elements/LinkButton'
 import styles from "./TopSkills.module.css"
 import Image from 'next/image'
-import * as icons from "app/_components/elements/SkillIcons/index"
+import * as icons from "app/components/elements/SkillIcons/index"
 
 export const SkillsLevel = () => {
     return (
