@@ -8,6 +8,18 @@
     z-index: 100;
 }
 
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contribution {
+    position: relative;
+    width: 70%;
+}
+
 .container {
     position: relative;
     display: flex;

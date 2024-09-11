@@ -8,6 +8,8 @@ import Loading from "./Loading";
 import { BgAnimation } from "./components/layouts/BgAnimation";
 import { BackToTopButton } from "./components/layouts/BackToTopButton";
 import { Suspense } from "react";
+import { ApolloProvider } from "@apollo/client";
+import client from "@/lib/apollo/apollo-client";
 
 const inter = Inter({ subsets: ["latin"] });
 
