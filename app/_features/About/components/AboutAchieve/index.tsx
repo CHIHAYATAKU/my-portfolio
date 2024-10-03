@@ -3,8 +3,9 @@ import Image from 'next/image'
 import styles from "./AboutAchieve.module.css"
 import awardLogo from "./AboutAchieve_Images/award-fill.svg"
 
-//追記はAchieve_Nextcontentsに加える 
+//追記はAchieve_Nextcontentsに加える
 const Achieve_NextContents = [
+    { date: "2024/08-現在", content: "株式会社ネクストビート就業型長期インターンシップ" },
     { date: "2024/02", content: "宮崎大学データサイエンス・AI 教育プログラム（応用基礎レベル）オープンバッジ取得" },
     { date: "2023/12", content: "工学部基礎科学（数学）成績優秀者表彰" },
     { date: "2023/08-11", content: "ソア・システムズ長期インターンシップ" },
@@ -14,6 +15,7 @@ const Achieve_NextContents = [
 ];
 
 const keyWords_ITEM = [
+    { href: "https://www.nextbeat.co.jp/", label: "ネクストビート" },
     { href: "https://www.soar.jp/", label: "ソア・システムズ" },
     { href: "https://www.miyazaki-u.ac.jp/manabi-jim/campus-life-info/scholarship-miyazaki-univ/", label: "宮崎大学夢と希望の道標奨学金" },
     { href: "https://www.ipa.go.jp/shiken/kubun/fe.html", label: "基本情報技術者試験" },

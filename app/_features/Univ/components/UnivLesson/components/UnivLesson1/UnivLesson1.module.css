@@ -5,6 +5,11 @@
     width: 67%;
     text-align: left;
     margin-top: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.h3:hover {
+    color: green;
 }
 
 .p {
@@ -12,6 +17,42 @@
     font-size: 0.875rem;
     margin: 0%;
     padding: 0%;
+}
+
+.toggleList {
+    cursor: pointer;
+}
+
+.toggleHeader {
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.2s ease;
+}
+
+.arrow.open {
+    transform: rotate(90deg);
+}
+
+.contentWrapper {
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+
+.p {
+    margin-left: 24px;
+    /* 矢印の幅 + 余白 */
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.p.visible {
+    opacity: 1;
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {

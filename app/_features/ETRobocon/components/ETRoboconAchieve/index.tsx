@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from "./ETRoboconAchieve.module.css"
 import awardLogo from "./ETRoboconAchieve_Images/award-fill.svg"
 
-//追記はAchieve_Nextcontentsに加える 
+//追記はAchieve_Nextcontentsに加える
 // const Achieve_NextContents = [
 //     { date: "更新をお待ちください", content: "" },
 // ];
@@ -38,13 +38,13 @@ export const ETRoboconAchieve = () => {
                     {/* 最後の行だけclassNameが異なるため，直接書いている */}
                     <div className={`${styles.lastLine} ${styles.oneLine}`}>
                         <div className={styles.divDate}>
-                            {/* <Image className={styles.pointLogo} src={awardLogo} alt='・' />
+                            <Image className={styles.pointLogo} src={awardLogo} alt='・' />
                             <p className={`${styles.pDate} ${styles.p}`}>
-                                2022/09
-                            </p> */}
+                                2024/09
+                            </p>
                         </div>
-                        <p className={`${styles.pContent} ${styles.p}`} >
-                            更新をお待ちください
+                        <p className={`${styles.pContent} ${styles.p}`}>
+                            九州地区大会 総合2位 [モデル：1位・競技：3位]
                         </p>
                     </div>
 

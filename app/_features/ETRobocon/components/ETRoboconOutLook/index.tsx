@@ -17,8 +17,10 @@ export const ETRoboconOutLook = () => {
                         </div>
                         <div className={styles.subPagesBelowElementsBoth}>
                             <p className={styles.p}>
-                                研究室の活動の一環で，ETロボコンに出場します．<br />
-                                今は地区大会に向けて実装中です．
+                                研究室の活動の一環で，毎年ETロボコンに出場しています．<br />
+                                開発期間は約半年間です．<br />
+                                2024年度は，地区大会で総合2位という結果で，悔しくも全国大会出場は叶いませんでした．
+                                2025年大会は2024年度の問題点を解消しつつ，さらにより良いソフトウェア開発が出来るように取り組みます．
                             </p>
                         </div>
                     </div>
