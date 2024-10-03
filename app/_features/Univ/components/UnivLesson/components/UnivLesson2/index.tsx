@@ -29,7 +29,7 @@ export const UnivLesson2 = () => {
                 className={`${styles.h3} ${styles.toggleHeader}`}
                 onClick={toggleContent}
             >
-                <span className={`${styles.arrow} ${isOpen ? styles.open : ''}`}>&#9654;</span>
+                <span className={`${styles.arrow} ${isOpen ? styles.open : ''}`}>&#9656;</span>
                 2年生後期から3年生
             </h3>
             <div
