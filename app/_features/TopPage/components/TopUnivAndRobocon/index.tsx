@@ -16,7 +16,7 @@ export const TopUnivAndRobocon = () => {
                     </div>
                     <div className={styles.box}>
                         <TopRobocon />
-                        <Link href={"Robocon"} className="button"><LinkButton /></Link>
+                        <Link href={"ETRobocon"} className="button"><LinkButton /></Link>
                     </div>
                 </div>
             </section>
