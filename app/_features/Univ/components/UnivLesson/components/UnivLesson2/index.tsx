@@ -6,12 +6,14 @@ import styles from "./UnivLesson2.module.css"
 export const UnivLesson2 = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [height, setHeight] = useState(0)
-    const contentRef = useRef(null)
+    const contentRef = useRef<HTMLParagraphElement | null>(null)
 
     useEffect(() => {
         if (isOpen) {
             const contentEl = contentRef.current
-            setHeight(contentEl.scrollHeight)
+            if (contentEl) {
+                setHeight(contentEl.scrollHeight)
+            }
         } else {
             setHeight(0)
         }
