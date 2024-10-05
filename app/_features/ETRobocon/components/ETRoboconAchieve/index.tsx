@@ -44,7 +44,7 @@ export const ETRoboconAchieve = () => {
                             </p>
                         </div>
                         <p className={`${styles.pContent} ${styles.p}`}>
-                            九州地区大会 総合2位 [モデル：1位・競技：3位]
+                            九州地区大会 アドバンストクラス総合2位 [モデル：1位・競技：3位]
                         </p>
                     </div>
 
