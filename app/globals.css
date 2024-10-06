@@ -16,6 +16,24 @@ body {
   scroll-behavior: smooth;
 }
 
+:root {
+  --font-teko: 'Teko', sans-serif;
+  --font-dotgothic16: 'DotGothic16', sans-serif;
+  --font-notosansjp: 'Noto Sans JP', sans-serif;
+}
+
+h1,
+h2,
+h3,
+ul {
+  font-family: var(--font-teko);
+}
+
+p {
+  font-family: var(--font-notosansjp);
+}
+
+
 .wrapper {
   display: flex;
   flex-direction: column;

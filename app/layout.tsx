@@ -18,6 +18,26 @@ export const metadata: Metadata = {
   description: "Takuma Portfolio",
 };
 
+import { Teko, DotGothic16, Noto_Sans_JP } from 'next/font/google'
+
+const teko = Teko({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-teko',
+})
+
+const dotGothic16 = DotGothic16({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-dotgothic16',
+})
+
+const notoSansJP = Noto_Sans_JP({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-notosansjp',
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -28,7 +48,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} ${teko.variable} ${dotGothic16.variable} ${notoSansJP.variable} font-sans`}>
         <Loading />
         <div className="wrapper">
           <BgAnimation />
