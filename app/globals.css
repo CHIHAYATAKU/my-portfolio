@@ -17,7 +17,7 @@ body {
 }
 
 :root {
-  --font-teko: 'Teko', sans-serif;
+  --font-teko: Teko, sans-serif;
   --font-dotgothic16: 'DotGothic16', sans-serif;
   --font-notosansjp: 'Noto Sans JP', sans-serif;
 }
